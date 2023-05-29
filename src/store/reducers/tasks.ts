@@ -10,21 +10,21 @@ const initialState: TasksState = {
   items: [
     {
       id: 1,
-      description: 'Estudar JavaScript revendo exercício do módulo 7',
+      description: 'Rever exercícios do módulo 7',
       priority: enums.Priority.IMPORTANTE,
       status: enums.Status.CONCLUIDA,
       title: 'Estudar JavaScript '
     },
     {
       id: 2,
-      description: 'Estudar TypeScript revendo exercício do módulo 7',
+      description: 'Fazer tarefa do módulo 30',
       priority: enums.Priority.URGENTE,
       status: enums.Status.PENDENTE,
-      title: 'Estudar '
+      title: 'Estudar TypeScript'
     },
     {
       id: 3,
-      description: 'Estudar revendo exercício do módulo 7',
+      description: 'Revisar conceitos',
       priority: enums.Priority.NORMAL,
       status: enums.Status.PENDENTE,
       title: 'Estudar React'
